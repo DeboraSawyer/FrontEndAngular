@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row wrap;
+    height: 100px;
+    background: #DADFEA;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left; /*center*/
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #04B471;
+    font-size: 46px; /*34px*/
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: #04B471;
+    text-decoration: none;
+    font-size: 16px; /*20px*/
+    padding: 20px 16px;
+}
+
+a:hover {
+    color: #FDC827;
+    border-top: 4px solid#04B471;
+    transition: 0.3s all;
+}
+
+#botao {
+    background: #04B471;
+    padding: 10px 25px;
+    color: #F5F2EB;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #FDC827;
+    transition: 0.3s;
+}
